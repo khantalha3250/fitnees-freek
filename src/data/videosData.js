@@ -1,0 +1,92 @@
+export const videosData = [
+  {
+    id: 1,
+    title: "Exercise Video 1",
+    url: "https://www.youtube.com/embed/Sou12pLJFCc?si=wj_f9C68quy-_6La",
+    category: "exercise",
+  },
+  {
+    id: 2,
+    title: "Exercise Video 2",
+    url: "https://www.youtube.com/embed/Sou12pLJFCc?si=wj_f9C68quy-_6La",
+    category: "exercise",
+  },
+  {
+    id: 3,
+    title: "Exercise Video 3",
+    url: "https://www.youtube.com/embed/Sou12pLJFCc?si=wj_f9C68quy-_6La",
+    category: "exercise",
+  },
+  {
+    id: 4,
+    title: "Exercise Video 4",
+    url: "https://youtu.be/wTX5ya6zuYs?si=KFXjcq8H3Di651zU",
+    category: "exercise",
+  },
+  {
+    id: 5,
+    title: "Exercise Video 5",
+    url: "https://youtu.be/uBGYht2hSPU?si=N48MYNTrsp_BMR1E",
+    category: "exercise",
+  },
+  {
+    id: 6,
+    title: "Exercise Video 6",
+    url: "https://youtu.be/G-Z9BXM9Gy0?si=RwUrJaGe0XET332f",
+    category: "diet",
+  },
+  {
+    id: 7,
+    title: "Exercise Video 7",
+    url: "https://youtu.be/G-Z9BXM9Gy0?si=EIckC9y9_eboRQCP",
+    category: "diet",
+  },
+  {
+    id: 8,
+    title: "Exercise Video 8",
+    url: "https://youtu.be/Xfwa_tR_a5c?si=J4Y2R--lb712rJ-T",
+    category: "diet",
+  },
+  {
+    id: 9,
+    title: "Exercise Video 9",
+    url: "https://youtu.be/UOlFR8iqIfU?si=TyMOHQLu6wiVkCaY",
+    category: "Diet",
+  },
+  {
+    id: 10,
+    title: "Exercise Video 10",
+    url: "https://youtu.be/MQTwUR3LCoI?si=l2eV51xtbs6bgz6D",
+    category: "Diet",
+  },
+  {
+    id: 11,
+    title: "Exercise Video 11",
+    url: "https://youtu.be/acUiwCplNDI?si=-6QeRicusrIyg1o2",
+    category: "exercise",
+  },
+  {
+    id: 12,
+    title: "Exercise Video 12",
+    url: "https://youtu.be/pUlDXrbpDZg?si=x5CbpDQO3wIBvGYP",
+    category: "exercise",
+  },
+  {
+    id: 13,
+    title: "Exercise Video 13",
+    url: "https://youtu.be/jMQapAAzL2A?si=6ywIXmBlyTxUfCee",
+    category: "exercise",
+  },
+  {
+    id: 14,
+    title: "Exercise Video 14",
+    url: "https://youtu.be/AItLYb6KAEM?si=2NCORmNt7v0oOD3u",
+    category: "exercise",
+  },
+  {
+    id: 15,
+    title: "Exercise Video 15",
+    url: "https://youtu.be/bv8IWnczPQA?si=4AAHjyV_XcUIrBRC",
+    category: "exercise",
+  },
+];
