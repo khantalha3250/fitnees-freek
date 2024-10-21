@@ -1,0 +1,32 @@
+.login {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 1rem;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  button:hover {
+    background-color: darkorange;
+  }
+  

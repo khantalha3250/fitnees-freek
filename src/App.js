@@ -1,4 +1,5 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero'
 import Join from './components/Join/Join';
@@ -8,19 +9,28 @@ import Reasons from './components/Reasons/Reasons';
 import Testimonials from './components/Testimonials/Testimonials';
 import BMI from './components/BMI/BMI';
 import Tutorials from './components/Tutorials/Tutorials';
+import DietRecommendation from './components/DietRecommendation/DietRecommendation';
+import Login from './components/Login/Login';
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+<Router>
+<Routes>
+  <Route path='/' element={<><Hero />
       <Programs />
       <BMI />
+      <DietRecommendation/>
       <Tutorials/>
       <Reasons />
       <Plans />
       <Testimonials />
       <Join />
-      <Footer />
+      <Footer /> </>}/>
+       
+        <Route path="/login" element={<Login/>} />   
+      </Routes>
+    </Router>
     </div>
   );
 }

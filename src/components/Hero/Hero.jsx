@@ -7,6 +7,7 @@ import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 import { motion } from "framer-motion";
 import NumberCounter from "number-counter";
+import { Link } from "react-router-dom";
 const Hero = () => {
   const transition = { type: "tween", duration: 2 };
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -70,7 +71,10 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
-        <button className="btn">Join Now</button>
+      
+  <button className="btn"><Link to='/login'>Login</Link></button>
+
+
 
         <motion.div
           transition={{ ...transition, type: "tween" }}
